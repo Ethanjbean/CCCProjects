@@ -1,0 +1,60 @@
+/* style.css */
+
+
+h1 {
+    font-family: Arial;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:orangered;
+    padding-bottom: 25px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: darkslateblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+input,
+select,
+button {
+    font-size: 16px;
+    padding: 10px;
+    margin: 8px 0;
+    width: 220px;
+    border: 1px solid orangered;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border-color: #4a90d9;
+    background-color:orangered ;
+}
+
+button {
+    background-color: red;
+    color: lightyellow;
+    border: orangered;
+    border-width: medium;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: orangered;
+}
+
+#output {
+    margin-top: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    color: orangered;
+}
